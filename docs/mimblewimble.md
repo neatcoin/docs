@@ -1,6 +1,6 @@
 ---
 id: mimblewimble
-title: Mimblewimble
+title: Mimblewimble Privacy Transaction
 ---
 
 This article describes specific aspects of how Mimblewimble might be incoperated in Neatcoin.

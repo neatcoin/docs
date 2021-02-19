@@ -1,6 +1,6 @@
 ---
 id: nomo
-title: Nomo
+title: Nomo DNS
 ---
 
 Nomo is a blockchain for domain name registration and user identity
