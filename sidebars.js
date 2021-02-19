@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Introduction: ['overview'],
+    Introduction: ['overview', 'bootstrap'],
     Design: ['mimblewimble', 'nomo', 'outmove'],
   },
 };
