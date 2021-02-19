@@ -32,12 +32,16 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'Mimblewimble',
+              to: 'docs/mimblewimble',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Nomo',
+              to: 'docs/nomo',
+            },
+            {
+              label: 'Outmove',
+              to: 'docs/outmove,'
             },
           ],
         },
@@ -45,16 +49,8 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/neatcoin',
             },
           ],
         },
@@ -67,7 +63,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/neatcoin/neatcoin',
             },
           ],
         },
