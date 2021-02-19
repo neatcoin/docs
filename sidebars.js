@@ -1,5 +1,5 @@
 module.exports = {
   someSidebar: {
-    Design: ['mimblewimble'],
+    Design: ['mimblewimble', 'nomo'],
   },
 };
