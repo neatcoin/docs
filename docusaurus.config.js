@@ -6,8 +6,8 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'neatcoin', // Usually your GitHub org/user name.
-  projectName: 'neatcoin.org', // Usually your repo name.
+  organizationName: 'neatcoin',
+  projectName: 'neatcoin.org',
   themeConfig: {
     navbar: {
       title: 'Neatcoin',
@@ -67,7 +67,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Neatcoin contributors. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Neatcoin contributors.`,
     },
   },
   presets: [
