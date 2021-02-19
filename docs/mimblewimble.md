@@ -1,5 +1,5 @@
 ---
-id: Mimblewimble
+id: mimblewimble
 title: Mimblewimble
 ---
 
