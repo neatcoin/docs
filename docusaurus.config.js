@@ -41,7 +41,7 @@ module.exports = {
             },
             {
               label: 'Outmove',
-              to: 'docs/outmove,'
+              to: 'docs/outmove',
             },
           ],
         },
