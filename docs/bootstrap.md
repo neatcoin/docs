@@ -23,9 +23,7 @@ integer divisions.
 
 ## Details
 
-The details should be mostly considered fixed, after community review. However,
-there may still be (really) small chances that the details changes. The change
-will only extend the lock, but never shrink it.
+The details should be mostly considered fixed, after community review.
 
 * Lock-drop end date: Kulupu block number 504000 (approximately 27 April, 2021).
 * Minimum lock end date: Kulupu block number 635040 (approximately 27 July, 2021).
@@ -39,3 +37,15 @@ the locked balance. The final balance on the Neatcoin blockchain is
 ```
 
 Note that `/` denotes integer division.
+
+## Additional notes
+
+The launch date of Neatcoin has not been determined.
+
+There may still be a (really small) chance that the details changes. In any
+case, a change will only extend the lock, but never shrink it.
+
+Unless the lockdrop suffers from technical failures or security issues (in which
+case a new lockdrop will have to take place), the current lockdrop will be the
+only source of Neatcoin's genesis block. There won't be any additional
+allocations or lockdrops.
