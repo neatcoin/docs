@@ -27,9 +27,9 @@ The details should be mostly considered fixed, after community review. However,
 there may still be (really) small chances that the details changes. The change
 will only extend the lock, but never shrink it.
 
-* Lock-drop end date: Kulupu block number 504000.
-* Minimum lock end date: Kulupu block number 635040.
-* Maximum lock end date: Kulupu block number 4173120.
+* Lock-drop end date: Kulupu block number 504000 (approximately 27 April, 2021).
+* Minimum lock end date: Kulupu block number 635040 (approximately 27 July, 2021).
+* Maximum lock end date: Kulupu block number 4173120 (approximately 18 April, 2028).
 
 The calculation is done as follows. Take `L` as your lock end date, and `A` as
 the locked balance. The final balance on the Neatcoin blockchain is
