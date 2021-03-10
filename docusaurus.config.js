@@ -51,14 +51,30 @@ module.exports = {
               label: 'Twitter',
               href: 'https://twitter.com/neatcoin',
             },
+            {
+              label: 'Reddit',
+              href: 'https://www.reddit.com/r/neatcoin/',
+            },
+            {
+              label: 'Keybase',
+              href: 'https://keybase.io/team/neatcoin',
+            },
+            {
+              label: 'Discord',
+              href: 'https://discord.gg/BVUETyTn3D'
+            },
           ],
         },
         {
-          title: 'More',
+          title: 'Development',
           items: [
             {
               label: 'GitHub',
               href: 'https://github.com/neatcoin/neatcoin',
+            },
+            {
+              label: 'Matrix',
+              href: 'https://matrix.to/#/#neatcoin:matrix.org',
             },
           ],
         },
