@@ -55,3 +55,35 @@ allocations or lockdrops.
 import LockdropStatus from '@site/src/components/LockdropStatus';
 
 The bootstrapping is ongoing. <LockdropStatus />
+
+## Participate
+
+Kulupu community has voted to allow the Neatcoin bootstrapping process to happen
+on its blockchain.
+
+On Kulupu block number 455,040, you can start to lock your coins to participate
+in the bootstrapping. To do this, you need to:
+
+* Use the polkadot-js wallet on the Kulupu network.
+* Select "Developer", "Extrinsics" tab.
+* Choose the account you want to participate in the bootstrapping, and make sure
+  it has the funds you want to lock.
+* Choose extrinsic `lockdrop`, `lock`.
+* Insert amount as the amount you want to lock.
+* Replace the identifier field. Remove "0x", and insert all uppercase "NEAT".
+* Insert `lock_end_block` as your desired lock end block. The minimum is one
+  month (at block 635,040), and the maximum is 7 years (at block 4,173,120).
+* Choose "Submit Transaction" and finish the transaction submission.
+
+On Kulupu block number 504,000, the bootstraping will end, and no more locking
+will be possible.
+
+Once your chosen lock period ends, you can use the following process to unlock
+your funds:
+
+* Use the polkadot-js wallet on the Kulupu network.
+* Select "Developer", "Extrinsics" tab.
+* Choose the account to unlock.
+* Choose extrinsic `lockdrop`, `unlock`.
+* Replace the identifier field. Remove "0x", and insert all uppercase "NEAT".
+* Choose "Submit Transaction" and finish the transaction submission.
