@@ -49,3 +49,9 @@ Unless the lockdrop suffers from technical failures or security issues (in which
 case a new lockdrop will have to take place), the current lockdrop will be the
 only source of Neatcoin's genesis block. There won't be any additional
 allocations or lockdrops.
+
+## Status
+
+import LockdropStatus from '@site/src/components/LockdropStatus';
+
+The bootstrapping is ongoing. <LockdropStatus />
