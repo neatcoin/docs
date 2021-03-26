@@ -38,18 +38,6 @@ the locked balance. The final balance on the Neatcoin blockchain is
 
 Note that `/` denotes integer division.
 
-## Additional notes
-
-The launch date of Neatcoin has not been determined.
-
-There may still be a (really small) chance that the details changes. In any
-case, a change will only extend the lock, but never shrink it.
-
-Unless the lockdrop suffers from technical failures or security issues (in which
-case a new lockdrop will have to take place), the current lockdrop will be the
-only source of Neatcoin's genesis block. There won't be any additional
-allocations or lockdrops.
-
 ## Status
 
 import LockdropStatus from '@site/src/components/LockdropStatus';
@@ -87,3 +75,15 @@ your funds:
 * Choose extrinsic `lockdrop`, `unlock`.
 * Replace the identifier field. Remove "0x", and insert all uppercase "NEAT".
 * Choose "Submit Transaction" and finish the transaction submission.
+
+## Additional notes
+
+The launch date of Neatcoin has not been determined.
+
+There may still be a (really small) chance that the details changes. In any
+case, a change will only extend the lock, but never shrink it.
+
+Unless the lockdrop suffers from technical failures or security issues (in which
+case a new lockdrop will have to take place), the current lockdrop will be the
+only source of Neatcoin's genesis block. There won't be any additional
+allocations or lockdrops.
