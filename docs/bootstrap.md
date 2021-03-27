@@ -59,8 +59,8 @@ in the bootstrapping. To do this, you need to:
 * Choose extrinsic `lockdrop`, `lock`.
 * Insert amount as the amount you want to lock.
 * Replace the identifier field. Remove "0x", and insert all uppercase "NEAT".
-* Insert `lock_end_block` as your desired lock end block. The minimum is one
-  month (at block 635,040), and the maximum is 7 years (at block 4,173,120).
+* Insert `lock_end_block` as your desired lock end block. The minimum is three
+  months (at block 635,040), and the maximum is 7 years (at block 4,173,120).
 * Choose "Submit Transaction" and finish the transaction submission.
 
 On Kulupu block number 504,000, the bootstraping will end, and no more locking
