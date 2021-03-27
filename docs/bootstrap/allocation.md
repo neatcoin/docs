@@ -1,6 +1,7 @@
 ---
 title: Bootstrap allocation
 sidebar_label: Allocation
+description: Genesis balance allocation for Neatcoin's bootstrap process.
 ---
 
 Bootstraping a network, specifically, allocating balances in the genesis

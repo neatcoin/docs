@@ -1,6 +1,7 @@
 ---
 title: Bootstrap procedure
 sidebar_label: Procedure
+description: Launch procedure for Neatcoin's bootstrap process.
 ---
 
 Once the genesis balance allocation is determined and the genesis block is
