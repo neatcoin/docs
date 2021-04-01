@@ -27,7 +27,7 @@ integer divisions.
 The details should be mostly considered fixed, after community review.
 
 * Lock-drop end date: Kulupu block number 504000 (approximately 27 April, 2021).
-* Minimum lock end date: Kulupu block number 635040 (approximately 27 July, 2021).
+* Minimum lock end date: Kulupu block number 635041 (approximately 27 July, 2021).
 * Maximum lock end date: Kulupu block number 4173120 (approximately 18 April, 2028).
 
 The calculation is done as follows. Take `L` as your lock end date, and `A` as
@@ -61,7 +61,7 @@ in the bootstrapping. To do this, you need to:
 * Insert amount as the amount you want to lock.
 * Replace the identifier field. Remove "0x", and insert all uppercase "NEAT".
 * Insert `lock_end_block` as your desired lock end block. The minimum is three
-  months (at block 635,040), and the maximum is 7 years (at block 4,173,120).
+  months (at block 635,041), and the maximum is 7 years (at block 4,173,120).
 * Choose "Submit Transaction" and finish the transaction submission.
 
 On Kulupu block number 504,000, the bootstraping will end, and no more locking
