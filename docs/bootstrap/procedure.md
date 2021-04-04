@@ -14,13 +14,12 @@ actual process is likely to take up weeks.
 
 ### Start the genesis block
 
-The first thing is to start the genesis block. The genesis block will contain
-all the genesis balance allocations, together with 3-6 PoA validator keys so
-that it can generate blocks.
+The genesis block will contain all the genesis balance allocations, together
+with 3-6 PoA validator keys so that it can generate blocks.
 
 ### Transition to PoS
 
-The first thing we do then is to transition to PoS. Validators will signal their
+The first referendum we do then is to transition to PoS. Validators will signal their
 intention on-chain to vote, and nominators can vote for validators they like. A
 democracy referendum is expected to be submitted to do the actual switching.
 Because the referendum will have to go through three phrases each lasting around
