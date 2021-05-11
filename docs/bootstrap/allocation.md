@@ -41,9 +41,7 @@ Note that `/` denotes integer division.
 
 ## Status
 
-import LockdropStatus from '@site/src/components/LockdropStatus';
-
-The bootstrapping is ongoing. <LockdropStatus />
+The bootstrapping has concluded.
 
 ## Participate
 
