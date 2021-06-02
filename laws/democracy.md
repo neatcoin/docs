@@ -85,3 +85,71 @@ limited number of governance matters. Those include:
 * Fast-track a simple-majority and simple-default Referendum.
 * Other governance matters Technical Committee Members can vote through
   Technical Committee Motions.
+
+## Voting rules
+
+Users, Council Members and Technical Committee Members decide by voting, and
+they follow different voting rules.
+
+### Referendums
+
+Referendums are the voting rules for Users.
+
+#### Referendum statuses
+
+Depending how a referendum was tabled and as democracy terms advance, a
+referendum goes through different statuses:
+
+* **Proposed**: A referendum is tabled by Users. It will enter Super-Majority
+  Voting status next, or get cancelled.
+* **Externally proposed with super-majority voting**: A referendum is tabled by
+  agreement of Council. It will enter Super-Majority Voting status next, or get
+  cancelled.
+* **Externally proposed with simple-majority voting**: A referendum is tabled by
+  agreement of Council. It will enter Simple-Majority Voting status next, or get
+  cancelled.
+* **Externally proposed with simple-default voting**: A referendum is tabled by
+  agreement of Council. It will enter Simple-Default Voting status next, or get
+  cancelled.
+* **Super-majority voting**: A referendum under voting under super-majority
+  rule. It will either get passed and enter Activating status, or get rejected.
+* **Simple-majority voting**: A referendum under voting under simple-majority
+  rule. It will either get passed and enter Activating status, or get rejected.
+* **Simple-default voting**: A referendum under voting under simple-default
+  rule. It will either get passed and enter Activating status, or get rejected.
+* **Acticating**: A referendum that has passed voting and will be activated in 8
+  days. Any User has the ability to submit preimage for a Referendum. If a
+  preimage is submitted in time, the referendum will be executed. Otherwise, the
+  referendum fails.
+
+#### Democracy terms
+
+Democracy terms are the general way Referendums advance statuses. Each democracy
+term lasts 7 days.
+
+When a new democracy term is started, a referendum, in one of **Proposed**,
+**Externally proposed with super-majority voting**, **Externally proposed with
+simple-majority voting** or **Externally proposed with simple-default voting**
+statuses gets put in one of **Super-majority voting**, **Simple-majority
+voting** or **Simple-default voting**. Proposed and Externally Proposed
+referendums alternate. For Proposed referendum, the one with the highest backing
+wins, regardless of submission time.
+
+#### Fast tracking
+
+Technical Committee Members, through Technical Committee Motions, can fast track
+a referendum under **Externally proposed with simple-majority voting** or
+**Externally proposed with simple-default voting** status. The fast track
+referendum does not follow normal democracy terms.
+
+A fast track referendum has a minimum voting period of 1 day.
+
+### Council Motions
+
+Each Council Member has equal voting rights for every Council Motion.
+
+In case of abstain, A Council Member's vote is decided as:
+
+1. Aye, if more than half of Council Members voted Aye.
+2. Aye, if Prime Council Member voted Aye, and if (1) does not hold.
+3. Nay, otherwise.
