@@ -113,7 +113,7 @@ module.exports = {
         routeBasePath: 'docs',
         sidebarPath: require.resolve('./docs/sidebars.js'),
         editUrl:
-          'https://github.com/neatcoin/neatcoin.org/edit/master/website/docs/',
+          'https://github.com/neatcoin/neatcoin.org/edit/master/',
       },
     ],
     [
@@ -124,7 +124,7 @@ module.exports = {
         routeBasePath: 'laws',
         sidebarPath: require.resolve('./laws/sidebars.js'),
         editUrl:
-          'https://github.com/neatcoin/neatcoin.org/edit/master/website/laws/',
+          'https://github.com/neatcoin/neatcoin.org/edit/master/',
       },
     ]
   ],
