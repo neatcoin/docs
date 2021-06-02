@@ -22,6 +22,12 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
+        {
+          to: 'laws/',
+          activeBasePath: 'laws',
+          label: 'Laws',
+          position: 'left',
+        },
       ],
     },
     footer: {
@@ -86,11 +92,7 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/neatcoin/neatcoin.org/edit/master/website/',
-        },
+        docs: false,
         blog: {
           showReadingTime: true,
           editUrl:
@@ -101,6 +103,8 @@ module.exports = {
         },
       },
     ],
+  ],
+  plugins: [
     [
       '@docusaurus/plugin-content-docs',
       {
@@ -108,6 +112,8 @@ module.exports = {
         path: 'docs',
         routeBasePath: 'docs',
         sidebarPath: require.resolve('./docs/sidebars.js'),
+        editUrl:
+          'https://github.com/neatcoin/neatcoin.org/edit/master/website/docs/',
       },
     ],
     [
@@ -117,6 +123,8 @@ module.exports = {
         path: 'laws',
         routeBasePath: 'laws',
         sidebarPath: require.resolve('./laws/sidebars.js'),
+        editUrl:
+          'https://github.com/neatcoin/neatcoin.org/edit/master/website/laws/',
       },
     ]
   ],

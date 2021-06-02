@@ -1,5 +1,5 @@
 module.exports = {
-  docsSidebar: {
-
+  lawsSidebar: {
+    Laws: ['overview', 'democracy'],
   },
 };
