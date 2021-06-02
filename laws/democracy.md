@@ -148,8 +148,37 @@ A fast track referendum has a minimum voting period of 1 day.
 
 Each Council Member has equal voting rights for every Council Motion.
 
-In case of abstain, A Council Member's vote is decided as:
+In case of abstain, a Council Member's vote is decided as:
 
 1. Aye, if more than half of Council Members voted Aye.
 2. Aye, if Prime Council Member voted Aye, and if (1) does not hold.
 3. Nay, otherwise.
+
+For a Council Motion to pass, it must have more than threshold number of Council
+Members voted Aye. The thresholds are as follows:
+
+* To propose an external super-majority referendum: at least 50%.
+* To propose an external simple-majority referendum: at least 80%.
+* To propose an external simple-default referendum: 100%.
+* To cancel a referendum under voting: 100%.
+* To cancel a staking slash: 100%.
+* To approve a treasury proposal: at least 80%.
+* To reject a treasury proposal: at least 50%.
+
+In the case of proposing an external referendum, Technical Committee Members
+have the chance to veto a proposal.
+
+### Technical Committee Motions
+
+Each Technical Committee Member has equal voting rights for every Technical Committee Motion.
+
+In case of abstain, a Technical Committee Member's vote is decided as:
+
+1. Aye, if Prime Technical Committee Member voted Aye.
+2. Nay, otherwise.
+
+For a Technical Committee Motion to pass, it must have more than threshold
+number of Technical Committee Members voted Aye. The thresholds are as follows:
+
+* To fast track a proposal: 100%.
+* To cancel a referendum under proposing: 100%.
