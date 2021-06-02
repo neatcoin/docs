@@ -101,5 +101,23 @@ module.exports = {
         },
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs',
+        path: 'docs',
+        routeBasePath: 'docs',
+        sidebarPath: require.resolve('./docs/sidebars.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'laws',
+        path: 'laws',
+        routeBasePath: 'laws',
+        sidebarPath: require.resolve('./laws/sidebars.js'),
+      },
+    ]
   ],
 };
