@@ -28,6 +28,10 @@ module.exports = {
           label: 'Laws',
           position: 'left',
         },
+        {
+          href: 'https://wallet.neatcoin.org',
+          label: 'Wallet',
+        },
       ],
     },
     footer: {
