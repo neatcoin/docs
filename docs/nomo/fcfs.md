@@ -1,5 +1,4 @@
 ---
-id: nomo/fcfs
 title: FCFS domains
 ---
 

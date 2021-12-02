@@ -1,5 +1,4 @@
 ---
-id: nomo/auction
 title: Auction domains
 ---
 

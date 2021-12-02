@@ -1,5 +1,4 @@
 ---
-id: nomo/tld
 title: Top-level domains
 ---
 
