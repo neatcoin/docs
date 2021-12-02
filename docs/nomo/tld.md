@@ -37,7 +37,7 @@ in Neatcoin is specifically masked to point to the OpenNIC root zone.
 
 Additional alternative root zone services can also be added. In order
 to ensure all Neatcoin resolvers understand the meaning of all TLD
-types and can properly resolve them. They are added through on-chain
+types and can properly resolve them, they are added through on-chain
 runtime upgrades.
 
 The current list of additional TLD types include Handshake root
