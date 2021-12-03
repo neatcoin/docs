@@ -47,7 +47,8 @@ action "declare as initiator". Parameters are described below:
 * **Value**: the amount of money to send in the source blockchain. In
   our case, this is `100 NEAT`.
 * **Duration**: how long (in block numbers) the atomic swap is valid
-  for. A recommended value is 14400 (one day).
+  for. A recommended value is 14400 on Neatcoin, and 1440 on Kulupu
+  (one day).
   
 The initiator then copies the "secret hash" and let the counterparty
 know this value. The initiator then submits the extrinsic on-chain.
@@ -70,7 +71,8 @@ counterparty". Parameters are described as below:
 * **Value**: the amount of money to send in the target blockchain. In
   our case, this is `200 KLP`.
 * **Duration**: this should be slightly longer than the duration of
-  the initiator. A recommended value is 21600 (one and a half day).
+  the initiator. A recommended value is 21600 on Neatcoin, and 2160 on
+  Kulupu (one and a half day).
   
 The counterparty then submits the extrinsic on-chain.
 
